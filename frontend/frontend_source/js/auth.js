@@ -95,9 +95,9 @@ function showErrorMessage(message, index) {
         alertBox.style.textAlign = "center";
         let verticalPosition;
         if (index === 0)
-            verticalPosition = "62.5%";
+            verticalPosition = "68%";
         else if (index === 1)
-            verticalPosition = "58%";
+            verticalPosition = "61%";
         else
             verticalPosition = "50%";
         alertBox.style.top = verticalPosition;
