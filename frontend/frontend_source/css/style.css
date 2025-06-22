@@ -100,10 +100,16 @@ body::before {
     display: flex;
     align-items: center;
     height: 5rem;
+    width: 100%;
     color: #eeeeee;
     text-decoration: none;
     transition: var(--transition-speed);
     filter: grayscale(100%) opacity(0.7);
+
+}
+
+.nav_link * {
+    pointer-events: none;
 }
 
 .nav_link svg
@@ -111,7 +117,7 @@ body::before {
     width: 3rem;
     min-width: 3rem;
     margin: 1rem;
-    pointer-events: none; 
+    /* pointer-events: none;  */
 }
 
 .nav_link:hover
@@ -128,7 +134,7 @@ object
 
 .link-text
 {
-    pointer-events: none;
+    /* pointer-events: none; */
     display: none;
     margin-left: 1rem;
 }
