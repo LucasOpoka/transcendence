@@ -111,6 +111,7 @@ body::before {
     width: 3rem;
     min-width: 3rem;
     margin: 1rem;
+    pointer-events: none; 
 }
 
 .nav_link:hover
@@ -127,6 +128,7 @@ object
 
 .link-text
 {
+    pointer-events: none;
     display: none;
     margin-left: 1rem;
 }
