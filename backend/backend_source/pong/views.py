@@ -882,6 +882,7 @@ def pong_settings(request):
 		"game_speed": settings.game_speed,
 		"ball_size": settings.ball_size,
 		"paddle_size": settings.paddle_size,
+		"power_jump": settings.power_jump,
 		"theme": settings.theme,
 		"font_size": settings.font_size,
 		"language": settings.language,
